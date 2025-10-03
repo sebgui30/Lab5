@@ -44,6 +44,8 @@
         seatOpen(selectedSeat) = False
         seatButtons(selectedSeat).Enabled = False
         seatButtons(selectedSeat).Text = "Reserved"
+        txtPassName.Clear()
+        txtPassName.Focus()
     End Sub
 
     Private Sub btnNextPass_Click(sender As Object, e As EventArgs) Handles btnNextPass.Click
